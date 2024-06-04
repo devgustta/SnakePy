@@ -60,6 +60,7 @@ while True:
     ret_vermelho = pygame.draw.rect(tela, (255, 0, 0), (x, y, 30, 40))
     ret_azul = pygame.draw.rect(tela, (0, 0, 255), (x_azul, y_azul, 30, 40))
 
+    # Verifica as colisões nas bordas da tela
     if x < 0:
        # x = 0
        verifica_colisao()
